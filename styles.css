@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  background-color: #000;
+}
+
+.header {
+  background-color: #000;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.header-nav {
+  height: 7.3rem;
+  width: 100vw;
+
+  display: flex;
+  padding: 0 3vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.barbell-icon {
+  font-size: 4.4rem;
+}
+
+.nav-list {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.6rem;
+
+  color: #a1a1aa;
+}
+
+.nav-text {
+  transition: 0.3s all;
+}
+
+.nav-text:hover {
+  color: #fff;
+}
+
+#nav-membership {
+  text-transform: none;
+  background-color: #0c57fb;
+  letter-spacing: 1px;
+  font-weight: 300;
+  font-size: 1.6rem;
+  padding: 1rem;
+  border-radius: 10px;
+  color: #fff !important;
+}
+
+#nav-special {
+  margin-left: -15px;
+  font-size: 2.4rem;
+}
+
+.header-content {
+  flex-grow: 1;
+
+  background-image: url(images/training.jpg);
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.header-title {
+  font-size: 4.8rem;
+}
+
+.header-content-text {
+  font-size: 2.2rem;
+  font-weight: 300;
+}
