@@ -18,7 +18,7 @@ body {
 .header {
   background-color: #000;
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
 
   display: flex;
   flex-direction: column;
@@ -95,4 +95,42 @@ body {
 .header-content-text {
   font-size: 2.2rem;
   font-weight: 300;
+}
+
+.programs-techniques {
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #f3f4f6;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.programs-title {
+  color: #000;
+  font-size: 3.2rem;
+  margin: 4rem 0;
+}
+
+.programs-card-container {
+  color: #000;
+  width: 70vw;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 2.4rem;
+}
+
+.program-card-item {
+  background-color: #444;
+  width: 46rem;
+  height: 18rem;
+
+  border-radius: 10px;
+  background-size: cover;
+}
+
+#card-1 {
+  background-image: url(images/ferrari.jpg);
 }
