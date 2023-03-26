@@ -132,5 +132,13 @@ body {
 }
 
 #card-1 {
-  background-image: url(images/ferrari.jpg);
+  background-image: url(images/card-1.jpg);
+}
+
+#card-2 {
+  background-image: url(images/card-2.jpg);
+}
+
+#card-3 {
+  background-image: url(images/card-3.jpg);
 }
